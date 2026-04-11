@@ -63,6 +63,21 @@ credit-risk-model/
 - Income per year of employment
 - High loan ratio flag (loan > 30% of income)
 
+## Information Value (Feature Predictiveness)
+
+| Feature | IV Score | Strength |
+|---|---|---|
+| debt_to_income | 0.9117 | Very Strong |
+| loan_percent_income | 0.8887 | Very Strong |
+| loan_int_rate | 0.6379 | Very Strong |
+| person_income | 0.4865 | Strong |
+| loan_amnt | 0.0837 | Weak |
+| income_per_emp_year | 0.0830 | Weak |
+| person_emp_length | 0.0611 | Weak |
+| person_age | 0.0136 | Useless |
+| cb_person_cred_hist_length | 0.0045 | Useless |
+
+IV > 0.3 = strong predictor. Debt-to-income ratio is the most predictive feature.
 ### Model
 - Logistic Regression (industry standard for credit scorecards)
 - 80/20 train/test split with stratification
