@@ -3,7 +3,7 @@
 An end-to-end credit risk model built in Python, following industry
 standards used in bank credit risk departments.
 
-Built as part of a UBS Quantitative Risk Modelling internship application.
+
 
 ---
 
